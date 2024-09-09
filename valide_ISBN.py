@@ -24,7 +24,7 @@ def valid_ISBN10(isbn):
   return sum(mult_Nums)%11==0
 
 
-print(valid_ISBN10(''))
-print(valid_ISBN10(''))
-print(valid_ISBN10(''))
-print(valid_ISBN10(''))
+print(valid_ISBN10('1112223339'), 'True')
+print(valid_ISBN10('048665088X'), 'True')
+print(valid_ISBN10('1234512345'), 'False')
+print(valid_ISBN10('1293'), 'False')
